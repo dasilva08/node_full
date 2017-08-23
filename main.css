@@ -1,0 +1,83 @@
+body {
+    font-size: 80%;
+    font-family: Verdana, Tahoma;
+    margin: 0;
+}
+
+main {
+    margin: 4em;
+}
+
+h2,
+h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+input {
+    color: #888;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #888;
+    margin-left: 6px;
+}
+
+button:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+.addHero h3 {
+    display: inline-block;
+}
+
+.heroList {
+    width: 25em;
+    padding: 0;
+    margin: 0 0 2em 0;
+    list-style-type: none;
+}
+
+.heroList li {
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    cursor: pointer;
+    height: 2em;
+    border-radius: 4px;
+}
+
+.numero {
+    display: inline-block;
+    font-size: smaller;
+    color: white;
+    padding: 1.3em 0.7em 0 0.7em;
+    background-color: #607D8B;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: 1em;
+    border-radius: 4px 0 0 4px;
+}
+
+.heroList .delHero {
+    float: right;
+    margin-right: 4px;
+}
+
+.heroName {
+    position: absolute;
+    margin-top: 4px;
+}
